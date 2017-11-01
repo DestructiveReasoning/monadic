@@ -1,3 +1,4 @@
+//Wrapper trait to simulate higher-kinded types
 pub trait TypeClass<U> {
     type C;
     type T;
